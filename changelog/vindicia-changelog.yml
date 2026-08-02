@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.vindicia.com/bundle/Subscribe_Release_Notes
+scheme: per-product dated release notes
+current_version: null
+channels:
+- product: Subscribe
+  url: https://docs.vindicia.com/bundle/Subscribe_Release_Notes
+- product: Retain
+  url: https://docs.vindicia.com/bundle/b_retainReleaseNotes
+- product: Connect
+  url: https://docs.vindicia.com/bundle/b_connectReleaseNotes
+- product: PEM
+  url: https://docs.vindicia.com/bundle/b_PEMReleaseNotes
+- product: Bundle
+  url: https://docs.vindicia.com/bundle/b_bundleReleaseNotes
+- product: Subscribe Salesforce (Premium)
+  url: https://docs.vindicia.com/bundle/Subscribe_Salesforce_Premium_Release_Notes
+- product: Subscribe Salesforce (Basic)
+  url: https://docs.vindicia.com/bundle/Subscribe_Salesforce_Basic_Release_Notes
+entries: []
+notes: >-
+  Vindicia publishes dated release notes per product line rather than a single
+  consolidated changelog. Individual dated entries were not captured verbatim
+  (the Zoomin docs render client-side); the release-note channels are recorded
+  above as the source of truth.

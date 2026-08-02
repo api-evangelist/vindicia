@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.vindicia.com/category/developerhub
+authentication:
+  style: API key (merchant-issued, header) for Subscribe/Retain; OAuth2/OIDC for Connect identity
+  ref: authentication/vindicia-authentication.yml
+webhooks:
+  supported: true
+  ref: asyncapi/vindicia-webhooks.yml
+health_check:
+  supported: true
+  docs: https://docs.vindicia.com/bundle/b_merchantOnboardingGuide/page/topics/healthCheckEndpointAbout_c.html
+errors:
+  ref: errors/vindicia-error-codes.yml
+lifecycle:
+  ref: lifecycle/vindicia-lifecycle.yml
+idempotency:
+  supported: unknown
+  notes: No idempotency-key contract was located in the public docs; not asserted.
+pagination:
+  style: unknown
+  notes: Not captured verbatim from the client-rendered docs.
+versioning:
+  style: per-product (e.g. Retain V1.5); Subscribe/Connect via dated release notes
+notes: >-
+  Cross-cutting semantics for the Vindicia REST platform, assembled from the
+  published developer documentation. Fields marked "unknown" were not rendered
+  verbatim from the Zoomin docs and are deliberately not fabricated. Idempotency
+  is NOT asserted (no documented idempotency-key contract found), so no
+  Idempotency pointer is emitted.

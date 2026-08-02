@@ -1,0 +1,27 @@
+# Vindicia
+
+> Vindicia (an Amdocs company) is a subscription-billing and failed-payment recovery platform for subscription businesses. Its products include Vindicia Subscribe (subscription management / recurring billing) and Vindicia Retain (machine-learning-driven recovery of failed recurring payments), plus Vindicia Connect (identity/IDP with OAuth2/OIDC). It exposes REST APIs (and a legacy CashBox SOAP API), documents webhooks, API-key and OAuth2 authentication, and error-code references.
+
+## APIs
+- [Vindicia Subscribe REST API Guide](https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Overview.html): Recurring billing, subscriptions, accounts, tokens, and payment operations.
+- [Vindicia Retain REST API Guide (OpenAPIs)](https://docs.vindicia.com/bundle/b_retainRESTAPIGuideOpenAPIs/page/topics/retainAPIOverview_c.html): Failed-payment recovery API.
+- [Vindicia Retain V1.5 API Reference](https://docs.vindicia.com/bundle/b_Retain_V1.5_API_Reference_Guide/page/topics/Vindicia_Retain_API_Overview.html): Versioned Retain reference.
+- [Vindicia Connect (OAuth2 / OpenID Connect)](https://docs.vindicia.com/bundle/b_ConnectProductDescription/page/topics/oAuth2andOpenIDConnect_c.html): Identity and end-user authentication.
+
+## Docs
+- [Developer Hub](https://docs.vindicia.com/category/developerhub)
+- [Knowledge Center](https://docs.vindicia.com/)
+- [REST API Quick Start Guide](https://docs.vindicia.com/bundle/b_restApiQuickStartGuide)
+- [React SDK Quick Start Guide](https://docs.vindicia.com/bundle/b_reactSdkQuickStartGuide)
+- [Authentication](https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Authentication.html)
+- [Webhooks](https://docs.vindicia.com/bundle/b_userGuideForMerchants/page/topics/webhooksAbout_c.html)
+- [Status codes and errors](https://docs.vindicia.com/bundle/b_restApiGuide/page/topics/c_statusCodesAndErrors.html)
+
+## Operations
+- [Status page](https://status.vindicia.com/)
+- [Subscribe release notes](https://docs.vindicia.com/bundle/Subscribe_Release_Notes)
+- [Retain release notes](https://docs.vindicia.com/bundle/b_retainReleaseNotes)
+- [Merchant Portal](https://portal.vindicia.com/portal/login)
+
+## Company
+- [Website](https://www.vindicia.com/)

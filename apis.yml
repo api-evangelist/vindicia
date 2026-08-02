@@ -1,9 +1,32 @@
 aid: vindicia
 name: Vindicia
-description: 'Vindicia is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Vindicia (an Amdocs company) is a subscription-billing and payment-recovery
+  platform for subscription businesses. Its flagship products are Vindicia
+  Subscribe, a subscription-management and recurring-billing system, and Vindicia
+  Retain, which uses payments intelligence and machine learning trained on
+  billions of transactions to recover failed recurring payments and reduce
+  involuntary churn. Vindicia Connect adds OAuth2/OpenID Connect identity for
+  end-user authentication. The platform exposes REST APIs (Subscribe and Retain),
+  a legacy CashBox SOAP API, documented webhooks, API-key and OAuth2
+  authentication, a React SDK, error-code references, dated per-product release
+  notes, and an Atlassian status page. It integrates with major payment
+  processors including Stripe, Adyen, Braintree, PayPal, Chase, CyberSource and
+  ACI Worldwide.
 url: https://raw.githubusercontent.com/api-evangelist/vindicia/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://vindicia.com/sites/default/files/vindicia-default-og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,11 +35,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
-apis: []
+- Subscription Billing
+- Recurring Payments
+- Payment Recovery
+- Subscription Management
+- Payments
+- Churn
+apis:
+- name: Vindicia Subscribe REST API
+  description: >-
+    REST API for subscription management and recurring billing — accounts,
+    subscriptions, campaigns, tokens/virtual currency, and payment operations.
+  humanURL: https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Overview.html
+  baseURL: https://api.vindicia.com
+  tags:
+  - Subscription Billing
+  - Recurring Payments
+  properties:
+  - type: Documentation
+    url: https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Overview.html
+  - type: Authentication
+    url: authentication/vindicia-authentication.yml
+- name: Vindicia Retain REST API
+  description: >-
+    REST API for machine-learning-driven recovery of failed recurring payments.
+  humanURL: https://docs.vindicia.com/bundle/b_retainRESTAPIGuideOpenAPIs/page/topics/retainAPIOverview_c.html
+  baseURL: https://api.vindicia.com
+  tags:
+  - Payment Recovery
+  properties:
+  - type: Documentation
+    url: https://docs.vindicia.com/bundle/b_Retain_V1.5_API_Reference_Guide/page/topics/Vindicia_Retain_API_Overview.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +77,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.vindicia.com/
+  url: https://www.vindicia.com/
+- type: DeveloperPortal
+  url: https://docs.vindicia.com/category/developerhub
+- type: Documentation
+  url: https://docs.vindicia.com/
+- type: APIReference
+  url: https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Overview.html
+- type: GettingStarted
+  url: https://docs.vindicia.com/bundle/b_restApiQuickStartGuide
+- type: Support
+  url: https://docs.vindicia.com/category/contactSupport
+- type: SignUp
+  url: https://portal.vindicia.com/portal/login
+- type: StatusPage
+  url: https://status.vindicia.com/
+- type: Authentication
+  url: authentication/vindicia-authentication.yml
+- type: Webhooks
+  url: asyncapi/vindicia-webhooks.yml
+- type: ErrorCatalog
+  url: errors/vindicia-error-codes.yml
+- type: ChangeLog
+  url: changelog/vindicia-changelog.yml
+- type: Lifecycle
+  url: lifecycle/vindicia-lifecycle.yml
+- type: Conventions
+  url: conventions/vindicia-conventions.yml
+- type: Packages
+  url: packages/vindicia-packages.yml
+- type: SDKs
+  url: packages/vindicia-packages.yml
+- type: DomainSecurity
+  url: security/vindicia-domain-security.yml
+- type: LLMsTxt
+  url: llms/vindicia-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

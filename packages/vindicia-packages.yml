@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.vindicia.com/bundle/b_reactSdkQuickStartGuide
+packages:
+- language: javascript
+  framework: react
+  name: Vindicia React SDK
+  url: https://docs.vindicia.com/bundle/b_reactSdkQuickStartGuide
+  official: true
+  notes: >-
+    First-party React SDK documented via a dedicated quick-start guide. The
+    public package-registry name/URL was not confirmed (WebSearch budget
+    exhausted this session); recorded from the official docs.
+notes: >-
+  Vindicia documents a first-party React SDK (React SDK Quick Start Guide) plus a
+  REST API Quick Start Guide. Legacy CashBox integrations historically shipped
+  SOAP client libraries. Registry coordinates (npm, etc.) were not verifiable in
+  this pass; only the officially-documented SDK is recorded, no fabricated names.

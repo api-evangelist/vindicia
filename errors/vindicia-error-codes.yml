@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.vindicia.com/bundle/b_restApiGuide/page/topics/c_statusCodesAndErrors.html
+format: json
+envelope:
+  notes: >-
+    Vindicia's REST APIs return standard HTTP status codes plus a JSON error
+    body. The exact envelope field names were not captured verbatim (the Zoomin
+    docs render client-side).
+references:
+- name: Status codes and errors (REST API Guide)
+  url: https://docs.vindicia.com/bundle/b_restApiGuide/page/topics/c_statusCodesAndErrors.html
+- name: Business error codes
+  url: https://docs.vindicia.com/bundle/b_restApiGuide/page/topics/r_businessErrorCodes.html
+- name: Java/Spring error codes
+  url: https://docs.vindicia.com/bundle/b_restApiGuide/page/topics/r_JavaSpringErrorCodes.html
+- name: Subscribe REST API errors
+  url: https://docs.vindicia.com/bundle/b_Subscribe_REST_API_Guide/page/topics/Errors.html
+- name: Retain error list
+  url: https://docs.vindicia.com/bundle/b_retainRESTAPIGuideOpenAPIs/page/topics/retainErrorList_r.html
+- name: Error validation (Product Description)
+  url: https://docs.vindicia.com/bundle/b_productDescription/page/topics/r_errorValidation.html
+error_classes:
+- id: business-error-codes
+  description: Business/domain error codes returned by the Subscribe REST API.
+- id: java-spring-error-codes
+  description: Framework/validation error codes surfaced by the platform.
+- id: retain-error-list
+  description: Error codes specific to the Vindicia Retain failed-payment recovery API.
+notes: >-
+  Vindicia publishes multiple error-code reference pages (business errors,
+  Java/Spring/validation errors, and a Retain-specific error list). Individual
+  code values and messages were not rendered verbatim from the Zoomin docs and
+  are intentionally NOT fabricated here; the authoritative reference URLs are
+  recorded above. A future pass with rendered-doc access can enumerate the codes.

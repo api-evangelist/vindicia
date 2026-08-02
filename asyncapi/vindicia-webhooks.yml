@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.vindicia.com/bundle/b_userGuideForMerchants/page/topics/webhooksAbout_c.html
+spec_type: Webhooks
+webhooks:
+  supported: true
+  management: Merchant/Partner portal (webhooks can be registered and managed per account)
+  docs:
+  - https://docs.vindicia.com/bundle/b_userGuideForMerchants/page/topics/webhooksAbout_c.html
+  - https://docs.vindicia.com/bundle/b_userGuideForMerchants/page/topics/webhooksManage_t.html
+  - https://docs.vindicia.com/bundle/b_merchantOnboardingGuide/page/topics/webhooksAbout_c.html
+  - https://docs.vindicia.com/bundle/b_partnerUserGuideForPartners/page/topics/webhooksAbout_c.html
+related_surfaces:
+- name: Health check endpoint
+  docs: https://docs.vindicia.com/bundle/b_merchantOnboardingGuide/page/topics/healthCheckEndpointAbout_c.html
+- name: Customer notifications / push notifications
+  docs: https://docs.vindicia.com/bundle/b_Vindicia_Subscribe_Product_Description/page/topics/pushNotifications.html
+notes: >-
+  Vindicia documents an outbound webhooks capability across its merchant, partner,
+  aggregator and reseller guides (register/manage webhooks + a health-check
+  endpoint), plus customer/push notification services. No published AsyncAPI
+  document was found; this artifact captures the webhook event surface. Individual
+  event-type names were not rendered verbatim from the Zoomin docs and are not
+  fabricated here.

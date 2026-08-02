@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.vindicia.com/
+status_page: https://status.vindicia.com/
+status_page_platform: Atlassian Statuspage
+status_page_components:
+- Autobill Processing
+- Billing Workers
+- Batch Billing Submission/Processing to Payment Providers
+- Chase Paymentech Batch Processing
+- First Data Batch Processing
+- Litle/Vantiv Batch Processing
+release_notes:
+- product: Subscribe
+  url: https://docs.vindicia.com/bundle/Subscribe_Release_Notes
+- product: Retain
+  url: https://docs.vindicia.com/bundle/b_retainReleaseNotes
+- product: Connect
+  url: https://docs.vindicia.com/bundle/b_connectReleaseNotes
+- product: PEM
+  url: https://docs.vindicia.com/bundle/b_PEMReleaseNotes
+- product: Bundle
+  url: https://docs.vindicia.com/bundle/b_bundleReleaseNotes
+versioning:
+  scheme: product-versioned
+  notes: >-
+    Retain publishes a versioned REST reference (e.g. Retain V1.5 API Reference
+    Guide). Subscribe and Connect ship dated release notes per product rather
+    than a single global API version.
+deprecation:
+  policy_url: null
+  notes: >-
+    No standalone deprecation/Sunset-header policy page was located in the public
+    docs; changes are communicated through the per-product release notes above.
+notes: >-
+  Vindicia (an Amdocs company) runs an Atlassian Statuspage at
+  status.vindicia.com covering the recurring-billing processing pipeline, and
+  maintains dated release notes for each product line.
